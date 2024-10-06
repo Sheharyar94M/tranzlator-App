@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Translator</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="tranzlator">Translator</string>
+    <string name="ready_to_talk_to_world">Ready to talk to world?</string>
+    <string name="share">Share</string>
+    <string name="full_screen">Full Screen</string>
+    <string name="reverse_translation">Reverse Translation</string>
+    <string name="conversation">Conversation</string>
+    <string name="translate">Translate</string>
+    <string name="dictionary">Dictionary</string>
+    <string name="tap_to_enter_text">Tap to enter text</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="remove_ads">Remove Ads</string>
+    <string name="share_with_friends">Share with Friends</string>
+    <string name="clear_history">Clear History</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="history">History</string>
+    <string name="spoken_text">spoken text</string>
+    <string name="translated_text">translated text</string>
+
+    <!--key names for shared preferences-->
+
+    <string name="lang_one">com.risibleapps.translator.lang_one</string>
+    <string name="lang_one_code">com.risibleapps.translator.lang_one_code</string>
+    <string name="lang_two">com.risibleapps.translator.lang_two</string>
+    <string name="lang_two_code">com.risibleapps.translator.lang_two_code</string>
+    <string name="source_text">Source Text</string>
+    <string name="translation_ad_count">Translation Ad Count</string>
+
+    <!--key names for conversation fragment shared preferences-->
+
+    <string name="conversation_lang_one">com.risibleapps.translator.conversation_lang_one</string>
+    <string name="conversation_lang_one_code">com.risibleapps.translator.conversation_lang_one_code</string>
+    <string name="conversation_lang_two">com.risibleapps.translator.conversation_lang_two</string>
+    <string name="conversation_lang_two_code">com.risibleapps.translator.conversation_lang_two_code</string>
+    <string name="fetching_results">Fetching results...</string>
+
+    <!--key name for Theme shared preferences-->
+    <string name="pref_theme">com.hammad.translator.pref_theme</string>
+
+    <string name="_1">1</string>
+    <string name="definition">definition</string>
+    <string name="part_of_speech">part of speech</string>
+    <string name="example">example</string>
+    <string name="entered_text">entered text</string>
+    <string name="lang_2">Lang 2</string>
+    <string name="lang_1">Lang 1</string>
+    <string name="search_word">Search Word</string>
+    <string name="hello">hello</string>
+    <string name="h_l">həˈləʊ</string>
+
+    <!-- custom style for unified adview in theme.xml-->
+    <string name="ad_attribution">Ad</string>
+    <string name="testing_text">Testing Text</string>
+
+    <string name="native_ad_id_debug">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="native_ad_id_release">ca-app-pub-1814031312363155/6497566953</string>
+
+    <string name="interstitial_ad_id_release">ca-app-pub-1814031312363155/5016964324</string>
+    <string name="interstitial_ad_id_debug">ca-app-pub-3940256099942544/1033173712</string>
+
+    <string name="api_key">AIzaSyBMQNG-qurBQdQEEMJaSztmwbyVkHOvghA</string>
+
+</resources>

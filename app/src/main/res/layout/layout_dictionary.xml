@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/_15sdp"
+    android:background="@drawable/custom_round_border"
+    android:padding="@dimen/_5sdp">
+
+    <TextView
+        android:id="@+id/text_increment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_1"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/_13ssp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_definition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:text="@string/definition"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/_13ssp"
+        app:layout_constraintStart_toEndOf="@id/text_increment"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="bottom"
+        app:constraint_referenced_ids="text_increment,text_definition"
+        tools:layout_editor_absoluteY="22dp" />
+
+    <TextView
+        android:id="@+id/text_part_of_speech_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Part of Speech"
+        android:textSize="@dimen/_13ssp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/_15sdp"
+        app:layout_constraintTop_toBottomOf="@id/barrier"/>
+
+    <TextView
+        android:id="@+id/text_part_of_speech"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/part_of_speech"
+        android:textAlignment="center"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="@dimen/_13ssp"
+        android:layout_marginTop="@dimen/_3sdp"
+        app:layout_constraintTop_toBottomOf="@id/text_part_of_speech_2"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/text_example_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Example"
+        android:textSize="@dimen/_13ssp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/_10sdp"
+        app:layout_constraintTop_toBottomOf="@id/text_part_of_speech"/>
+
+    <TextView
+        android:id="@+id/text_example"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/example"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="@dimen/_13ssp"
+        android:textStyle="italic"
+        android:layout_marginTop="@dimen/_3sdp"
+        app:layout_constraintTop_toBottomOf="@id/text_example_2"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/text_synonyms_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Synonyms"
+        android:textSize="@dimen/_13ssp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/_10sdp"
+        app:layout_constraintTop_toBottomOf="@id/text_example"/>
+
+    <TextView
+        android:id="@+id/text_synonyms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="@dimen/_13ssp"
+        android:textStyle="normal"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:layout_marginStart="@dimen/_5sdp"
+        app:layout_constraintTop_toBottomOf="@id/text_synonyms_2"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
